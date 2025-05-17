@@ -8,9 +8,8 @@ import { CartProvider } from "@/contexts/cart-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AfricaBoubou - Boubous Africains Authentiques",
-  description: "Découvrez notre collection de boubous traditionnels africains, confectionnés avec soin et passion.",
-    generator: 'v0.dev'
+  title: "Luxe BOUTIQUE - Boubous Africains Authentiques",
+  description: "Découvrez notre collection de boubous traditionnels africains, confectionnés avec soin et passion."
 }
 
 export default function RootLayout({

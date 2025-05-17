@@ -45,7 +45,7 @@ export default function CartPage() {
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">Votre panier est vide</h1>
             <p className="text-gray-500 mb-8 max-w-md mx-auto">Vous n'avez pas encore ajouté de produits à votre panier. Découvrez notre sélection de produits de qualité.</p>
-            <Link href="/products">
+            <Link href="/">
               <Button className="bg-amber-700 hover:bg-amber-800 transition-all duration-300 transform hover:scale-105 px-8 py-3 rounded-lg text-white font-medium">
                 Découvrir nos produits
               </Button>
@@ -101,7 +101,7 @@ export default function CartPage() {
                 </div>
 
                 <div className="mt-8 pt-4 border-t">
-                  <Link href="/products">
+                  <Link href="/">
                     <Button 
                       variant="outline" 
                       className="flex items-center text-amber-700 border-amber-200 hover:bg-amber-50 transition-all duration-200"

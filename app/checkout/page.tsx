@@ -271,7 +271,7 @@ export default function CheckoutPage() {
                       className="flex items-center border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-md transition-colors"
                     >
                       <ArrowLeft className="mr-2 h-4 w-4" />
-                      Retour au panier
+                      Retour
                     </Button>
                   </Link>
 
@@ -280,7 +280,7 @@ export default function CheckoutPage() {
                     className="bg-amber-700 hover:bg-amber-800 text-white font-medium px-6 py-2 rounded-md transition-colors"
                     disabled={isSubmitting}
                   >
-                    {isSubmitting ? "Traitement en cours..." : "Confirmer la commande"}
+                    {isSubmitting ? "Traitement en cours..." : "Confirmer"}
                   </Button>
                 </div>
               </form>
